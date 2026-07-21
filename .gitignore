@@ -1,0 +1,72 @@
+# ==========================
+# Dependencies
+# ==========================
+node_modules/
+
+# ==========================
+# Build Output
+# ==========================
+dist/
+build/
+coverage/
+.nyc_output/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# TypeScript
+# ==========================
+*.tsbuildinfo
+
+# ==========================
+# IDE / Editors
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+.cache/
+
+# ==========================
+# Package Managers
+# ==========================
+.pnpm-store/
+.npm/
+
+# ==========================
+# Testing
+# ==========================
+playwright-report/
+test-results/
+
+# ==========================
+# Local AI-Workflow (only if this repository should NOT track its own project intelligence)
+# ==========================
+# .ai-workflow/

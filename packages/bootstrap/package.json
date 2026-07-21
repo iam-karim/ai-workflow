@@ -1,0 +1,16 @@
+{
+  "name": "@ai-workflow/bootstrap",
+  "version": "1.0.0-rc.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-workflow/core": "workspace:*",
+    "@ai-workflow/workspace": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

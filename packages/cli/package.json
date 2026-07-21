@@ -1,0 +1,20 @@
+{
+  "name": "@ai-workflow/cli",
+  "version": "1.0.0-rc.1",
+  "bin": {
+    "ai-workflow": "bin/run"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-workflow/bootstrap": "workspace:*",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
